@@ -1,0 +1,363 @@
+
+body{
+   
+    height:6250px;
+}
+.header1{
+   
+    position: relative;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color:rgba(216, 139, 37,0.5) ;
+    z-index: 100;
+
+}
+.header1 ul li a{
+    color: black;
+    margin-top: 13px;
+}
+.header1 img{
+    margin-left: 150px;
+}
+.header1 form button{
+    margin-left: 10px;
+}
+.header1 form input{
+    margin-left: 400px;
+}
+
+.sec1{
+    background-color: rgb(209, 168, 118);
+    height: 180px;
+    margin-bottom: 40px;
+}
+.carousel-inner img {
+    width: 100%;
+    height:100vh;
+   
+}
+.cap {
+    background-color: rgba(212, 167, 108,0.5);
+}
+.card-header a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(122, 72, 7, 0.904);
+   
+}
+.header2{
+    margin-top: 15px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(209, 168, 118);
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.body1{
+  
+    width: 100%;
+    height: 200px;
+    background-color: rgb(190, 149, 94);
+    font-size: 20px;
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+ textarea{
+    resize: none;
+    padding: 12px 20px;
+    border-radius: 15px;
+
+}
+.body1 button{
+    margin-bottom: 10px;
+}
+.sec4{
+    width: 100%;
+    height: 500px;
+    position: relative;
+ }
+.backg{
+    width: 100%;
+    height: 500px;
+  background-image: url(../images/bacccck.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+} 
+.tit {
+    background-color: rgb(214, 186, 148);
+    height: 70px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(22, 1, 1);
+}
+.sec5{
+    background-color: bisque;
+}
+.conc1{
+    margin-top: 20px;
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.conc1 button{
+    margin-left: 65px;
+   
+}
+.conc1 p{
+    margin-left: -28px;
+    margin-top: -30px;
+   
+    text-transform: uppercase;
+}
+.conc1 span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conc1 .card{
+   background-color:rgb(214, 186, 148) ;
+}
+.conc1 .card::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+   
+    background-color: rgba(201, 119, 25, 0.5);
+    transition: 0.6s;
+    opacity: 0;
+    
+}
+.conc1 .card::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(201, 119, 25, 0.5);
+    transition: 0.8s;
+    opacity: 0;
+    
+}
+.conc1 .card:hover::after{
+    width: 100%;
+    height: 100%;
+   
+    opacity: 0.2 ;
+
+}
+.back22{
+    width: 100%;
+    height: 500px;
+  background-image: url(../images/bacn.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tit2{
+    text-transform: capitalize;
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(22, 1, 1);    background-color: rgb(214, 186, 148);
+    background-color: rgb(214, 186, 148);
+
+}
+.conimg{
+    height: 350px;
+}
+.ov1,.ov11,.ov111{
+    margin-top: 20px;
+    width: 230px;
+    height: 300px;
+    
+    border-radius: 20px;
+   
+}
+.ov1{
+    background-image: url(../images/pro1.jpg);
+}
+.ov11{
+    background-image: url(../images/pro2.jpg);
+   
+}
+.ov111{
+    background-image: url(../images/s5.jpg);
+    background-size: cover;
+}
+.ov1:hover,.ov11:hover,.ov111:hover{
+    width: 220px;
+    height: 320px; 
+}
+.ovv:hover{
+    width: 220px;
+    height: 320px; 
+}
+.ovv{
+    border-radius: 20px;
+    width: 230px;
+    height: 300px;
+    background-color: rgba(218, 169, 107, 0.5);
+}
+ .ovv p{
+   padding-left: 15px;
+   padding-top: 5px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+ }  
+ .ovv span{
+    padding-left: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+ } 
+ .ovcir img{
+    width: 80px;
+    height: 100px;
+    border-radius: 50%;
+    padding-left: 20px;
+    margin-top: 70px;
+    border: 2px white solid;
+ } 
+ 
+ .ovv .pre1{
+    margin-top: -15px
+ }
+
+.sec7,.sec8{
+    background-color: bisque;
+}
+.sec8{
+    height: 1600px;
+}
+.bac p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.conb{
+    width: 500px;
+    height:300px;
+    margin-left: 200px;
+    border-radius: 5%;
+}
+.conb img{
+    margin-left: 950px;
+    margin-top: -280px;
+    border-radius: 5%;
+    /* transform: rotate(-10deg) */
+}
+.conb .date{
+    font-size: 15px;
+}
+.conb .line{
+    width: 100px;
+    height: 5px;
+    border-radius: 15%;
+    margin-top: 5px;
+}
+.conb .link1{
+    display: inline;
+    background-color: rgba(39, 37, 37,0.5);
+    margin-left: 10px;
+    padding: 3px;
+}
+.conb-body ,.line{
+    margin-left: 180px;
+}
+.conb .ln{
+    margin-left: 180px;
+}
+.conb .link1:hover{
+    background-color: bisque;
+}
+.sec8 .titp{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.conjoin .social{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+.conjoin p{
+
+    font-family:monospace;
+    font-size:25px;
+    color:rgb(163, 127, 127);
+}
+.conjoin i{
+   
+    border-radius: 20px;
+    font-size: 100px;
+}
+.conjoin .tw{
+    color: rgb(91, 91, 177);
+}
+.conjoin .wh{
+    color: green;
+}
+.conjoin .lin{
+    color: rgb(91, 91, 177);
+}
+.conjoin .insta{
+    color: rgb(151, 10, 57);
+}
+.fcon{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(209, 168, 118);
+    padding-top: 30px;
+    
+}
+.fline{
+    width: 1200px;
+    height: 2px;
+    margin: auto;
+   
+}
+.cir1 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.cir1{
+    margin-top: 20px;
+}
+.cir1 p{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fline1{
+    width: 1200px;
+    height: 2px;
+    margin: auto;
+    margin-top: 30px; 
+}
+.fcont{
+    margin-top: 30px;
+}
+.fline2{
+    width: 1200px;
+    height: 2px;
+    margin: auto;
+    margin-top: 20px;  
+}
+.fcon .fin{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       color: rgb(68, 39, 39);
+       font-size: 20px;
+}
+.aside{
+   z-index:  1000;;
+  float: right;
+ font-size: 30px;
+ margin-top: -50px;
+
+}

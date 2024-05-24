@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <title>java</title>
+         <link rel="stylesheet" href="css/all.css">
+         <link rel="stylesheet" href="css/style.css">
+         <meta charset="utf-8">
+         <meta http-equiv="X-UA-Compatible"content="IE-edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+         <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+         <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <header class=" header1  row " >
+             <img src="images/logo.jpg" alt="logo" height="60">
+             <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a  class="nav-link dropdown-toggle bg-dark active" data-toggle="dropdown" href="#">services</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">life insurance</a>
+                        <a class="dropdown-item" href="#">free medicine</a>
+                        <a class="dropdown-item" href="#">safety</a>
+                      </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">places</a></li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">traveling</a></li>
+             </ul>
+             <form action="/action_page.php" class="form-inline">
+                <input type="text" placeholder="Search"class="form-control">
+                <button class="btn btn-warning" type="submit">Search</button>
+                <button class=" btn1 btn btn-warning " type="submit">Login</button>
+             </form>
+        </header>
+       
+        <main class=" m1 ">
+            <div id="slidesh" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#slidesh" data-slide-to="0"class="active"></li>
+                    <li data-target="#slidesh" data-slide-to="1"></li>
+                    <li data-target="#slidesh" data-slide-to="2"></li>
+                    <li data-target="#slidesh" data-slide-to="0"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" >
+                        <img src="images/ma.jpg"class="img-fluid" alt="photo"  >
+                        <div class=" cap carousel-caption">
+                            <h2 class="text-center">Luxor</h2>
+                            <span class="text-center d-block">enjoy your trip</span>
+                            <button class="btn btn-dark">Visit it!</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/back81.jpg" alt=" photo">
+                        <div class=" cap carousel-caption">
+                            <h2 class="text-center">Giza</h2>
+                            <span class="text-center d-block">enjoy your trip</span>
+                            <button class="btn btn-dark">Visit it!</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/bab2.jpg" alt="photo">
+                        <div class=" cap carousel-caption">
+                            <h2 class="text-center">Aswan</h2>
+                            <span class="text-center d-block">enjoy your trip</span>
+                            <button class="btn btn-dark">Visit it!</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="images/bab3.jpg" alt="photo">
+                        <div class=" cap carousel-caption">
+                            <h2 class="text-center">noba</h2>
+                            <span class="text-center d-block">enjoy your trip</span>
+                            <button class="btn btn-dark">Visit it!</button>
+                        </div>
+                    </div>
+                   
+                </div>
+                <a href="#slidesh" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#slidesh" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+                <!-- <div class="aside  ">
+                    <ul class="list1 ">
+                        <il class="d-block"><a href="#"><i class="fa-brands fa-instagram"></i></a></il>
+                        <il class="d-block"><a href="#"><i class="fa-brands fa-facebook"></i></a></il>
+                        <il class="d-block"><a href="#"><i class="fa-brands fa-twitter"></i></a></il>
+                        <il class="d-block"><a href="#"><i class="fa-brands fa-linkedin"></i></a></il>
+                    </ul>
+                </div> -->
+                
+            </div>
+           
+        </main>
+        
+        <section class="sec1 container-fluid ">
+          <h1>Welcome</h1>
+          <pre>
+            Make sure you have a few fun and compelling stories to tell about the buildings and sites you’re looking at.
+             People are more likely to feel engaged when they are listening to a story, rather than a list of dates and names.
+          </pre>
+          <button class="btn btn-dark">Learn more</button>
+        </section>
+        <section class="sec2 container-fluid">
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapse1"> Luxsor City</a>
+                    </div>
+                    <div id="collapse1"  class="collapse " data-parent="#accordion">
+                        <div class="card-body ">
+                            Luxor, city and capital of Al-Uqṣur muḥāfaẓah (governorate), Upper Egypt.
+                             Luxor has given its name to the southern half of the ruins of the ancient Egyptian city of Thebes.
+                             Area governorate
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapse2"> Giza City</a>
+                    </div>
+                    <div id="collapse2"  class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            Giza, city, capital of Al-Jīzah muḥāfaẓah (governorate) in Upper Egypt, located on the west bank of the Nile River just south-southwest of Cairo.
+                             It is a suburb of the national capital,
+                             with a distinctive character enriched by several archaeological and cultural sites.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapse3"> Aswan City</a>
+                    </div>
+                    <div id="collapse3"  class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            Aswan is the one of the major governorates in Upper Egypt and one of the prominent tourist attractions all over the world. It has a great history that dates back to the Pharaonic period when it was known as Swenet of "Trade". 
+                            It is bordered with the Red Sea Governorate from the east, New Valley from the west, Qena from the north, and Sudan from the south.The governorate covers about 34,608 km² and comprises by a number of small cities and localities including Daraw, Edfu, Nasr Elnoba,
+                             and Komombo.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec3 ">
+            <div class="header2 text-center ">
+                Tlanslate from Arabic To English
+            </div>
+            <div class="body1 ">
+                <span class="text-light">To Translate</span>
+                <a href="#" class="text-dark active card-link">Press Here</a>
+                <button class="btn  btn-warning pr-10 d-block" title="Copy" onclick="fun()">copy</button>
+                <textarea  id="tt"  cols="100" rows="3">translate..</textarea>
+            </div>
+               
+        </section>
+        <section class="sec3 ">
+            <div class="header2 text-center ">
+                Tlanslate from Arabic To French
+            </div>
+            <div class="body1 ">
+                <span class="text-light">To Translate</span>
+                <a href="#" class="text-dark active card-link">Press Here</a>
+                <button class="btn  btn-warning pr-10 d-block"  title="Copy" onclick="fun()">copy</button>
+                <textarea  id="tt"  cols="100" rows="3">translate..</textarea>
+            </div>
+              
+        </section>
+        <section class="sec4 ">
+                <div class="backg">
+                    
+                </div>
+        </section>
+        <section class="sec5 ">
+            <div class="tit  text-center">
+                popular things io our culture
+            </div>
+            <div class=" conc1 card-deck">
+                <div class="  card bordered col-2 mx-auto" >
+                    <img src="images/item1.jpg " class=" rounded mx-auto" width="170" height="250" alt="t1">
+                    <div class="card-body ">
+                        <button class="btn btn-dark btn-sm">Know more </button>
+                        <p>statue</p>
+                        <span>secrets of Egypt</span>
+                        
+                    </div>
+                </div>
+                <div class="card bordered col-2 mx-auto" >
+                    <img src="images/cat.jpg" class=" rounded mx-auto" width="170" height="250" alt="cc">
+                    <div class="card-body ">
+                        <button class="btn btn-dark btn-sm">Know more </button>
+                        <p> cat</p>
+                        <span>special thing</span>
+                        
+                    </div>
+                </div>
+                <div class="card bordered col-2 mx-auto">
+                    <img src="images/tabot.jpg" class=" rounded mx-auto" width="170" height="250"alt="t1">
+                    <div class="card-body ">
+                        <button class="btn btn-dark btn-sm">Know more </button>
+                        <p>tabot</p>
+                        <span>secrets of egypt</span>
+                        
+                    </div>
+                </div>
+               
+
+            </div>
+            <div class=" conc1 card-deck">
+                <div class="  card bordered col-2 mx-auto" >
+                    <img src="images/laly.jpg " class=" rounded mx-auto" width="170" height="250" alt="t1">
+                    <div class="card-body ">
+                        <button class="btn btn-dark btn-sm">Know more </button>
+                        <p>SCARAB</p>
+                        <span>secrets of Egypt</span>
+                        
+                    </div>
+                </div>
+                <div class="card bordered col-2 mx-auto" >
+                    <img src="images/writing.jpg" class=" rounded mx-auto" width="170" height="250" alt="cc">
+                    <div class="card-body ">
+                        <button class="btn btn-dark btn-sm">Know more </button>
+                        <p>hierogly</p>
+                        <span>special thing</span>
+                        
+                    </div>
+                </div>
+                <div class="card bordered col-2 mx-auto">
+                    <img src="images/access.jpg" class=" rounded mx-auto" width="170" height="250"alt="t1">
+                    <div class="card-body ">
+                        <button class="btn btn-dark btn-sm">Know more </button>
+                        <p>necklac</p>
+                        <span>secrets of egypt</span>
+                        
+                    </div>
+                </div>
+               
+
+            </div>
+            <div class=" conc1 card-deck">
+                <div class="  card bordered col-3 mx-auto" >
+                    <img src="images/clock.jpg " class=" rounded mx-auto" width="170" height="250" alt="t1">
+                    <div class="card-body ">
+                        <button class="btn btn-dark btn-sm">Know more </button>
+                        <p>clock</p>
+                        <span>secrets of Egypt</span>
+                        
+                    </div>
+                </div>
+                <div class="card bordered col-3 mx-auto" >
+                    <img src="images/malak.jpg" class=" rounded mx-auto" width="170" height="250" alt="cc">
+                    <div class="card-body ">
+                        <button class="btn btn-dark btn-sm">Know more </button>
+                        <p>pharaoh</p>
+                        <span>special thing</span>
+                        
+                    </div>
+                </div>
+               
+
+            </div>
+        </section>
+        <section class="sec6">
+            <div class="back22"></div>
+        </section>
+        <section class="sec7">
+            <div class="tit2 text-center">
+                thanks for your visit
+            </div>
+            <div class="conimg d-flex  justify-content-around">
+                <div class="ov1">
+                      <div class="ovv">
+                        <p>All thanks appreciation</p>
+                        <span>Octobar,15 2020</span>
+                        <div class="ovcir">
+                            <img src="images/pro2.jpg" alt="pro">
+                        </div>
+                        <p class="pre">Eng.Mohamed Ahmed 
+                        </p>
+                        <p class="pre pre1">Director: FRONT END</p>
+                      </div>
+                      
+                </div>
+                <div class="ov11">
+                    <div class="ovv">
+                        <p>All thanks appreciation</p>
+                        <span>Octobar,15 2020</span>
+                        <div class="ovcir">
+                            <img src="images/pro2.jpg" alt="pro">
+                        </div>
+                        <p class="pre">Eng.Mohamed Ahmed 
+                        </p>
+                        <p class="pre pre1">Director: FRONT END</p>
+                    </div>
+                </div>
+                <div class="ov111">
+                    <div class="ovv">
+                        <p>All thanks appreciation</p>
+                        <span>Octobar,15 2020</span>
+                        <div class="ovcir">
+                            <img src="images/pro2.jpg" alt="pro">
+                        </div>
+                        <p class="pre">Eng.Mohamed Ahmed 
+                        </p>
+                        <p class="pre pre1">Director: FRONT END</p>
+                    </div>
+                </div>
+            </div>
+       
+        </section>
+        <section class="sec8">
+            <div class="bac">
+                <p class="text-center ">NEWS</p>
+                <div class="conb container bg-light shadow">
+                    <div class="conb-body ">
+                          <p>Podcast title</p>
+                          <i class="fa-regular fa-calendar-days "></i>
+                          <p class="date d-inline">Mon,May 25th 2023</p>
+                    </div>
+                    <div class="line bg-dark"></div>
+                    <pre>
+                        Queen Cleopatra is one of the most iconic figures in history, 
+                        known for her intelligence, beauty,and political prowess.Born in 69 BC,
+                        Cleopatra VII ruled Egypt as the last pharaoh of the Ptolemaic dynasty.
+                        Her reign was marked by intrigue, romance, and strategic alliances, 
+                        making her a fascinating subject of study even centuries later. 
+                        Here are some key points about Queen Cleopatra
+                    </pre>
+                      <div class="link1 ln">
+                        <i class="fa-solid fa-tag "></i>
+                        <span>Products</span>
+                      </div>
+                      <div class="link1 ">
+                        <i class="fa-solid fa-clock  d-inline"></i>
+                        <span>55minutes</span>
+                      </div>
+                      <div class="link1 ">
+                        <i class="fa-solid fa-play  d-inline"></i>
+                        <span>play eposide</span>
+                      </div>
+                    <img src="images/card1.png" alt="card1" style="height: 300px;">
+                </div> <!--final-->
+                <div class="conb container bg-light shadow">
+                    <div class="conb-body ">
+                          <p>Podcast title</p>
+                          <i class="fa-regular fa-calendar-days "></i>
+                          <p class="date d-inline">Mon,May 25th 2023</p>
+                    </div>
+                    <div class="line bg-dark"></div>
+                    <pre>
+                        Queen Cleopatra is one of the most iconic figures in history, 
+                        known for her intelligence, beauty,and political prowess.Born in 69 BC,
+                        Cleopatra VII ruled Egypt as the last pharaoh of the Ptolemaic dynasty.
+                        Her reign was marked by intrigue, romance, and strategic alliances, 
+                        making her a fascinating subject of study even centuries later. 
+                        Here are some key points about Queen Cleopatra
+                    </pre>
+                      <div class="link1 ln">
+                        <i class="fa-solid fa-tag "></i>
+                        <span>Products</span>
+                      </div>
+                      <div class="link1 ">
+                        <i class="fa-solid fa-clock  d-inline"></i>
+                        <span>55minutes</span>
+                      </div>
+                      <div class="link1 ">
+                        <i class="fa-solid fa-play  d-inline"></i>
+                        <span>play eposide</span>
+                      </div>
+                    <img src="images/card2.jpg" alt="card1" style="height: 300px;">
+                </div><!--final-->
+                <div class="conb container bg-light shadow">
+                    <div class="conb-body ">
+                          <p>Podcast title</p>
+                          <i class="fa-regular fa-calendar-days "></i>
+                          <p class="date d-inline">Mon,May 25th 2023</p>
+                    </div>
+                    <div class="line bg-dark"></div>
+                    <pre>
+                        Queen Cleopatra is one of the most iconic figures in history, 
+                        known for her intelligence, beauty,and political prowess.Born in 69 BC,
+                        Cleopatra VII ruled Egypt as the last pharaoh of the Ptolemaic dynasty.
+                        Her reign was marked by intrigue, romance, and strategic alliances, 
+                        making her a fascinating subject of study even centuries later. 
+                        Here are some key points about Queen Cleopatra
+                    </pre>
+                      <div class="link1 ln">
+                        <i class="fa-solid fa-tag "></i>
+                        <span>Products</span>
+                      </div>
+                      <div class="link1 ">
+                        <i class="fa-solid fa-clock  d-inline"></i>
+                        <span>55minutes</span>
+                      </div>
+                      <div class="link1 ">
+                        <i class="fa-solid fa-play  d-inline"></i>
+                        <span>play eposide</span>
+                      </div>
+                    <img src="images/card3.jpg" alt="card1" style="height: 300px;">
+                </div><!--final-->
+                <div class="conb container bg-light shadow">
+                    <div class="conb-body ">
+                          <p>Podcast title</p>
+                          <i class="fa-regular fa-calendar-days "></i>
+                          <p class="date d-inline">Mon,May 25th 2023</p>
+                    </div>
+                    <div class="line bg-dark"></div>
+                    <pre>
+                        Queen Cleopatra is one of the most iconic figures in history, 
+                        known for her intelligence, beauty,and political prowess.Born in 69 BC,
+                        Cleopatra VII ruled Egypt as the last pharaoh of the Ptolemaic dynasty.
+                        Her reign was marked by intrigue, romance, and strategic alliances, 
+                        making her a fascinating subject of study even centuries later. 
+                        Here are some key points about Queen Cleopatra
+                    </pre>
+                      <div class="link1 ln">
+                        <i class="fa-solid fa-tag "></i>
+                        <span>Products</span>
+                      </div>
+                      <div class="link1 ">
+                        <i class="fa-solid fa-clock  d-inline"></i>
+                        <span>55minutes</span>
+                      </div>
+                      <div class="link1 ">
+                        <i class="fa-solid fa-play  d-inline"></i>
+                        <span>play eposide</span>
+                      </div>
+                    <img src="images/card4.jpg" alt="card1" style="height: 300px;">
+                </div><!--final-->
+            </div>
+
+            <p class="text-center titp">Join Us</p>
+            <div class="conjoin d-flex justify-content-center">
+                <div class="social bg-light shadow text-center">
+                     <p>Subscrib Now</p>
+                     <i class="fa-brands fa-twitter tw "></i>
+                     <p>Go To Link</p>
+        
+                </div>
+                <div class="social bg-light shadow text-center ">
+                    <p>Subscrib Now</p>
+                    <i class="fa-brands fa-square-whatsapp wh"></i>
+                    <p>Go To Link</p>
+                </div>
+                <div class="social bg-light shadow text-center">
+                    <p>Subscrib Now</p>
+                    <i class="fa-brands fa-linkedin lin"></i>
+                    <p>Go To Link</p>
+                </div>
+                <div class="social bg-light shadow text-center">
+                    <p>Subscrib Now</p>
+                    <i class="fa-brands fa-instagram insta"></i>
+                    <p>Go To Link</p>
+                </div>
+            </div>
+        </section>
+        <section class="sec9">
+            <div class="fcon">
+                <div class="fline bg-light"></div>
+                <div class="circon d-flex justify-content-around">
+                    <div class="cir1 d-flex">
+                        <img src="images/cir.jpg" alt="photo">
+                        <p>Good Company</p>
+                    </div>
+                    <div class="cir1 d-flex">
+                        <img src="images/cir.jpg" alt="photo">
+                        <p> Important Links</p>
+                    </div>
+                    <div class="cir1 d-flex">
+                        <img src="images/cir.jpg" alt="photo">
+                        <p>Vision</p>
+                    </div>
+
+                </div>
+                <div class="fline1 bg-light "></div>
+                <div class="fcont ">
+                    <div class="cont1 d-flex  justify-content-around">
+                          <p>Tel.0111452783</p>
+                          <a href="#">Visit Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                          <p>Services For All</p>
+                    </div>
+                    <div class="cont1 d-flex  justify-content-around">
+                        <p>Adress: Egypt</p>
+                        <a href="#">Take Alook</a>
+                        <p>Provide best services</p>
+                  </div>
+                  <div class="cont1 d-flex  justify-content-around">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fax: 01429526872</p>
+                    <a href="#">Your health is more important</a>
+                    <p>You will be beter than before</p>
+                 </div>
+
+                </div>
+                <div class="fline2 bg-light "></div>
+                <p class=" fin text-center">COPYRIGHT@2023 MARWA_AHMED ALLRIGHTS</p>
+                <div class="fline2 bg-light "></div>
+            </div>
+        </section>
+      <script src="js/script.js"></script>
+    </body>
+</html>
